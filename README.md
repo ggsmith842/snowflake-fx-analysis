@@ -22,8 +22,10 @@ Provide an analysis and recommendation on which foreign currency the client shou
 
 My original recommendation was to invest in KRW (South Korean Won). Had the client invested in KRW in April 3rd of 2021, the ROI would have been **23%** today.
 
-![KRW Price](images/KRW_Price.png)
-*ref: Google Finance*
+<p align="center">
+  <img src="images/KRW_Price.png" width="300", alt="Google Finance"><br>
+  <em>Google Finance</em>
+</p>
 
 ## Updated Analysis
 
