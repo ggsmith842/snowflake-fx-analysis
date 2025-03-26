@@ -22,7 +22,8 @@ Provide an analysis and recommendation on which foreign currency the client shou
 
 My original recommendation was to invest in KRW (South Korean Won). Had the client invested in KRW in April 3rd of 2021, the ROI would have been **23%** today.
 
-<Image>
+![KRW Price](images/KRW_Price.png)
+*ref: Google Finance*
 
 ## Updated Analysis
 
@@ -48,7 +49,7 @@ For my revised analysis I used the indicators:
 
 Additionally, I created a normalized composite FX score to attempt to capture the information in the above indicators as one metric.
 
-<image>
+!["FX Composite Scores"](images/fx_composite_score_plot.png)
 
 Unfortunately due to the limited amount of data, only a few countries were able to have complete scores and even those rarely had the most current data.
 
@@ -62,9 +63,13 @@ From the fundamental analysis, I would recommend the client move some money into
 
 To further improve on my original submission and to test out Snowflake's ML capabilities, I used the ML Studio to quicly create a time series forecasting model.
 
+!["Snowflake ML Studio](images/snowflake_ml_studio.png)
+
 I found this process to be very smooth and I have always enjoyed being able to build ML models with just SQL as I find it is easier to maintain and explain to business stakeholders.
 
 I looked at a few assets and found the GBP had the highest ROI when prices were forecast out 1 year.* **
+
+!["GBP Forecast](images/GBP%20Forecast.png)
 
 ### Forecasted ROI for Selected Currencies
 
